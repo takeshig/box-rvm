@@ -43,6 +43,8 @@ script: |
     echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
     echo "RAILS_ENV=test" | sudo tee -a /etc/environment
     echo "RACK_ENV=test" | sudo tee -a /etc/environment
+    sudo apt-get clean
+    rvm cleanup all
 
 box-detect:
     priority: 200
