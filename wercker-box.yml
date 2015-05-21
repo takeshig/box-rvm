@@ -1,8 +1,8 @@
 name: rvm
 version: 3.0.0
-inherits: wercker/ubuntu12.04-webessentials@1.0.4
+inherits: leipert/ubuntu14.04-webessentials@2.0.1
 type: main
-platform: ubuntu@12.04
+platform: ubuntu@14.04
 packages:
     - ruby@1.9.3-p547
     - ruby@1.9.3-p550
